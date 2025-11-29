@@ -1,4 +1,3 @@
-
 def normalizar(df, columna):
     df_normalitzat=df.copy()
     df_normalitzat[columna] =(df_normalitzat[columna] -df_normalitzat[columna].mean()) /df_normalitzat[columna].std
